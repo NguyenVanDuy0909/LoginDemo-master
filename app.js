@@ -12,7 +12,7 @@ app.use(session({
 
 
 var MongoClient = require('mongodb').MongoClient;
-var url = 'mongodb://localhost:27017';
+var url = 'mongodb+srv://TuanDuyNGU:150623@cluster0.13z7h.mongodb.net/test';
 
 var hbs = require('hbs')
 app.set('view engine', 'hbs')
